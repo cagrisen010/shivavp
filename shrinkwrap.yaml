@@ -7,7 +7,7 @@ dependencies:
   express-session: 1.17.1
   helmet: 3.23.3
   level-session-store: 2.2.0
-  marked: 1.1.1
+  marked: 1.2.0
   moment: 2.29.0
   moment-duration-format: 2.3.2
   opusscript: 0.0.7
@@ -711,13 +711,13 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-z6ldnAdhbuWOL6LmMkwptSZGzj+qbRytMKLTbNicwF/bJMjf9U9lqD57RNQUFecvWadEkzy6PDjcNJFFgi19uQ==
-  /marked/1.1.1:
+  /marked/1.2.0:
     dev: false
     engines:
       node: '>= 8.16.2'
     hasBin: true
     resolution:
-      integrity: sha512-mJzT8D2yPxoPh7h0UXkB+dBj4FykPJ2OIfxAWeIHrvoHDkFxukV/29QxoFQoPM6RLEwhIFdJpmKBlqVM3s2ZIw==
+      integrity: sha512-tiRxakgbNPBr301ihe/785NntvYyhxlqcL3YaC8CaxJQh7kiaEtrN9B/eK2I2943Yjkh5gw25chYFDQhOMCwMA==
   /media-typer/0.3.0:
     dev: false
     engines:
