@@ -1528,6 +1528,7 @@ packages:
     prepare: true
     requiresBuild: true
     resolution:
+      registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/66a6a1fcedc8c35b75a89dbb26edc01317bdd7e2'
     version: 13.0.0-dev
 registry: 'https://registry.npmjs.org/'
