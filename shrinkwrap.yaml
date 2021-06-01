@@ -1,6 +1,6 @@
 dependencies:
   btoa: 1.2.1
-  discord.js: github.com/discordjs/discord.js/c8d20a456b635ce6081ed8ad17315a9a0c0244bc
+  discord.js: github.com/discordjs/discord.js/66a6a1fcedc8c35b75a89dbb26edc01317bdd7e2
   discord.jsv2: github.com/YusufByt/sadvrtru/ad010712223145c4066c1d59c8a4d3930522fbe2
   ejs: 3.1.6
   express: 4.17.1
@@ -35,10 +35,27 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-ZfFsbgEXW71Rw/6EtBdrP5VxBJy4dthyC0tpQKGKmYFImlmmrykO14Za+BiIVduwjte0jXEBlhSKf0MWbFp9Eg==
-  /@types/node/14.17.0:
+  /@sapphire/async-queue/1.1.2:
+    dev: false
+    engines:
+      node: '>=14'
+      npm: '>=6'
+    resolution:
+      integrity: sha512-NkR7AzC9uyb++tMIZgG4X0ci8JM1rnvNmKbLwY42RgotRV8JGUntZ7ZpR7MN7p5zPlVdKo/YmOqcCCsBJ6LNuw==
+  /@types/node/14.17.1:
     dev: false
     resolution:
-      integrity: sha512-w8VZUN/f7SSbvVReb9SWp6cJFevxb4/nkG65yLAya//98WgocKm5PLDAtSs5CtJJJM+kHmJjO/6mmYW4MHShZA==
+      integrity: sha512-/tpUyFD7meeooTRwl3sYlihx2BrJE7q9XF71EguPFIySj9B7qgnRtHsHTho+0AUm4m1SvWGm6uSncrR94q6Vtw==
+  /@types/node/15.6.1:
+    dev: false
+    resolution:
+      integrity: sha512-7EIraBEyRHEe7CH+Fm1XvgqU6uwZN8Q7jppJGcqjROMT29qhAuuOxYB1uEY5UMYQKEmA5D+5tBnhdaPXSsLONA==
+  /@types/ws/7.4.4:
+    dependencies:
+      '@types/node': 15.6.1
+    dev: false
+    resolution:
+      integrity: sha512-d/7W23JAXPodQNbOZNXvl2K+bqAQrCMwlh/nuQsPSQk6Fq0opHoPrUw43aHsvSbIiQPr8Of2hkFbnz1XBFVyZQ==
   /abort-controller/3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -351,6 +368,12 @@ packages:
     hasBin: true
     resolution:
       integrity: sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+  /discord-api-types/0.18.1:
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-hNC38R9ZF4uaujaZQtQfm5CdQO58uhdkoHQAVvMfIL0LgOSZeW575W8H6upngQOuoxWd8tiRII3LLJm9zuQKYg==
   /dont-sniff-mimetype/1.1.0:
     dev: false
     engines:
@@ -447,7 +470,7 @@ packages:
       on-finished: 2.3.0
       parseurl: 1.3.3
       path-to-regexp: 0.1.7
-      proxy-addr: 2.0.6
+      proxy-addr: 2.0.7
       qs: 6.7.0
       range-parser: 1.2.1
       safe-buffer: 5.1.2
@@ -493,12 +516,12 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==
-  /forwarded/0.1.2:
+  /forwarded/0.2.0:
     dev: false
     engines:
       node: '>= 0.6'
     resolution:
-      integrity: sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
+      integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==
   /fresh/0.5.2:
     dev: false
     engines:
@@ -716,15 +739,15 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-z6ldnAdhbuWOL6LmMkwptSZGzj+qbRytMKLTbNicwF/bJMjf9U9lqD57RNQUFecvWadEkzy6PDjcNJFFgi19uQ==
-  /m3u8stream/0.8.3:
+  /m3u8stream/0.8.4:
     dependencies:
-      miniget: 4.2.0
+      miniget: 4.2.1
       sax: 1.2.4
     dev: false
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-0nAcdrF8YJKUkb6PzWdvGftTPyCVWgoiot1AkNVbPKTeIGsWs6DrOjifrJ0Zi8WQfQmD2SuVCjkYIOip12igng==
+      integrity: sha512-sco80Db+30RvcaIOndenX6E6oQNgTiBKeJbFPc+yDXwPQIkryfboEbCvXPlBRq3mQTCVPQO93TDVlfRwqpD35w==
   /marked/1.2.9:
     dev: false
     engines:
@@ -787,12 +810,12 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-fy9x3d/0oOIhkwAms6kgxTYkHwdELhMfgj+9a/aYZpJdTWIIWGta9aXHUtnzUn+LjBmRoTdPRQSi2hkmEvXk3A==
-  /miniget/4.2.0:
+  /miniget/4.2.1:
     dev: false
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-IzTOaNgBw/qEpzkPTE7X2cUVXQfSKbG8w52Emi93zb+Zya2ZFrbmavpixzebuDJD9Ku4ecbaFlC7Y1cEESzQtQ==
+      integrity: sha512-O/DduzDR6f+oDtVype9S/Qu5hhnx73EDYGyZKwU/qN82lehFZdfhoa4DT51SpsO+8epYrB3gcRmws56ROfTIoQ==
   /minimatch/3.0.4:
     dependencies:
       brace-expansion: 1.1.11
@@ -868,12 +891,12 @@ packages:
       node: '>=4.0.0'
     resolution:
       integrity: sha512-0L9FvHG3nfnnmaEQPjT9xhfN4ISk0A8/2j4M37Np4mcDesJjHgEUfgPhdCyZuFI954tjokaIj/A3NdpFNdEh4Q==
-  /node-abi/2.26.0:
+  /node-abi/2.30.0:
     dependencies:
       semver: 5.7.1
     dev: false
     resolution:
-      integrity: sha512-ag/Vos/mXXpWLLAYWsAoQdgS+gW7IwvgMLOgqopm/DbzAjazLltzgzpVMsFlgmo9TzG5hGXeaBZx2AI731RIsQ==
+      integrity: sha512-g6bZh3YCKQRdwuO/tSZZYJAw622SjsRfJ2X0Iy4sSOHZ34/sPPdVBn8fev2tj7njzLwuqPw9uMtGsGkO5kIQvg==
   /node-fetch/2.6.1:
     dev: false
     engines:
@@ -1014,7 +1037,7 @@ packages:
       minimist: 1.2.5
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 2.26.0
+      node-abi: 2.30.0
       noop-logger: 0.1.1
       npmlog: 4.1.2
       pump: 3.0.0
@@ -1045,15 +1068,15 @@ packages:
     dev: false
     resolution:
       integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
-  /proxy-addr/2.0.6:
+  /proxy-addr/2.0.7:
     dependencies:
-      forwarded: 0.1.2
+      forwarded: 0.2.0
       ipaddr.js: 1.9.1
     dev: false
     engines:
       node: '>= 0.10'
     resolution:
-      integrity: sha512-dh/frvCBVmSsDYzw6n926jv974gddhkFPfiN8hPOi30Wax25QZyZEGveluCgliBnqmuM+UJmBErbAUFIoDbjOw==
+      integrity: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==
   /pump/3.0.0:
     dependencies:
       end-of-stream: 1.4.4
@@ -1399,7 +1422,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
-  /ws/7.4.5:
+  /ws/7.4.6:
     dev: false
     engines:
       node: '>=8.3.0'
@@ -1407,7 +1430,7 @@ packages:
       bufferutil: ^4.0.1
       utf-8-validate: ^5.0.2
     resolution:
-      integrity: sha512-xzyu3hFvomRfXKH8vOFMU3OguG6oOvhXMo3xsGy3xWExqaM2dxBbVxuD99O7m3ZUFMvvscsZDqxfgMaRr/Nr1g==
+      integrity: sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
   /x-xss-protection/1.3.0:
     dev: false
     engines:
@@ -1429,16 +1452,16 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-R6m1XZQK+iXxb9Q9Wo14/K8mti1r4HnKv4zKrbp5FvMG/jDbeV0xQHUHqqDLk+uiDy/VU6fVATm5x2ms0QaF5w==
-  /ytdl-core/4.8.0:
+  /ytdl-core/4.8.2:
     dependencies:
-      m3u8stream: 0.8.3
-      miniget: 4.2.0
+      m3u8stream: 0.8.4
+      miniget: 4.2.1
       sax: 1.2.4
     dev: false
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-LFhhwqFojReoaME17VpsFeiamygM0W/YNG8O02mrmS2O6Em5LjCPiJYdq7Af3CmJtBEOCdptSZ3Ql+3LGWDGvg==
+      integrity: sha512-O3n++YcgZawaXJwbPmnRDgfN6b4kU0DpNdkI9Na5yM3JAdfJmoq5UHc8v9Xjgjr1RilQUUh7mhDnRRPDtKr0Kg==
   github.com/YusufByt/sadvrtru/ad010712223145c4066c1d59c8a4d3930522fbe2:
     dependencies:
       long: 4.0.0
@@ -1465,9 +1488,9 @@ packages:
     version: 11.6.0-dev
   github.com/amishshah/ytdl-core-discord/c0583f4f4547d0b3a2bd301d8a8de5188e8eb232:
     dependencies:
-      '@types/node': 14.17.0
+      '@types/node': 14.17.1
       prism-media: 1.2.9
-      ytdl-core: 4.8.0
+      ytdl-core: 4.8.2
     dev: false
     name: ytdl-core-discord
     resolution:
@@ -1485,23 +1508,28 @@ packages:
     resolution:
       tarball: 'https://codeload.github.com/discordapp/erlpack/tar.gz/e27db8f82892bdb9b28a0547cc394d68b5d2242d'
     version: 0.1.3
-  github.com/discordjs/discord.js/c8d20a456b635ce6081ed8ad17315a9a0c0244bc:
+  github.com/discordjs/discord.js/66a6a1fcedc8c35b75a89dbb26edc01317bdd7e2:
     dependencies:
       '@discordjs/collection': 0.1.6
       '@discordjs/form-data': 3.0.1
+      '@sapphire/async-queue': 1.1.2
+      '@types/ws': 7.4.4
       abort-controller: 3.0.0
+      discord-api-types: 0.18.1
       node-fetch: 2.6.1
       prism-media: 1.2.9
       tweetnacl: 1.0.3
-      ws: 7.4.5
+      ws: 7.4.6
     dev: false
     engines:
       node: '>=14.0.0'
+      npm: '>=7.0.0'
     name: discord.js
+    prepare: true
+    requiresBuild: true
     resolution:
-      registry: 'https://registry.npmjs.org/'
-      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/c8d20a456b635ce6081ed8ad17315a9a0c0244bc'
-    version: 12.5.0
+      tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/66a6a1fcedc8c35b75a89dbb26edc01317bdd7e2'
+    version: 13.0.0-dev
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
