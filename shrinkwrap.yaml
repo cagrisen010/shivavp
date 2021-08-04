@@ -871,6 +871,11 @@ packages:
     optional: true
     resolution:
       integrity: sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
+  /nan/2.15.0:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
   /napi-build-utils/1.0.2:
     dev: false
     resolution:
@@ -1491,7 +1496,7 @@ packages:
   github.com/discordapp/erlpack/e27db8f82892bdb9b28a0547cc394d68b5d2242d:
     dependencies:
       bindings: 1.5.0
-      nan: 2.14.2
+      nan: 2.15.0
     dev: false
     name: erlpack
     optional: true
