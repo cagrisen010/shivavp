@@ -1,6 +1,6 @@
 {
-	"TOKEN": "",
-	"YOUTUBE_API_KEY": "",
+	"TOKEN": "ODc3MTQxODUxNjYzMTE0Mjgx.YRuUAQ.4D64DcdrCWiVxxrdaV6ka215hdw",
+	"YOUTUBE_API_KEY": "AIzaSyBqZqOithzpaB2Ec5PE7UMdrZzYBhzZrh8",
 	"MAX_PLAYLIST_SIZE": 10,
-	"PREFIX": "-"
+	"PREFIX": "j!"
 }

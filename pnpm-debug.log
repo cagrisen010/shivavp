@@ -1,0 +1,135 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "hello-express"
+      version: "0.3.2"
+      description: "müzik"
+      main: "index.js"
+      private: true
+      engines: 
+        node: "12.x"
+      dependencies: 
+        discord.js: "github:discordjs/discord.js"
+        discord.jsv2: "github:YusufByt/sadvrtru"
+        moment: "^2.27.0"
+        moment-duration-format: "^2.3.2"
+        opusscript: "0.0.7"
+        simple-youtube-api: "^5.2.1"
+        ytdl-core: "^3.1.1"
+        ytdl-core-discord: "github:amishshah/ytdl-core-discord"
+        quick.db: "^7.1.1"
+        passport: "^0.4.1"
+        express-session: "^1.17.1"
+        level-session-store: "^2.2.0"
+        passport-discord: "^0.1.4"
+        helmet: "^3.23.3"
+        marked: "^1.1.0"
+        ejs: "^3.1.3"
+        express: "^4.17.1"
+        btoa: "^1.2.1"
+        erlpack: "github:discordapp/erlpack"
+        node-opus: "^0.3.1"
+      optionalDependencies: 
+        erlpack: "discordapp/erlpack"
+        node-opus: "^0.3.1"
+      scripts: 
+        start: "node index.js"
+      license: "MIT"
+      gitHead: "b41aec2843bb81230f6449d8cab17abb167f9393"
+      readme: "ERROR: No README data found!"
+      _id: "hello-express@0.3.2"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/opusscript/0.0.7"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/passport-discord/0.1.4"
+    requester: "/app"
+    status: "resolved"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/level-session-store/2.2.0"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express-session/1.17.2"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/helmet/3.23.3"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/passport/0.4.1"
+    requester: "/app"
+    status: "resolved"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick.db/7.1.3"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment-duration-format/2.3.2"
+    requester: "/app"
+    status: "resolved"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment/2.29.1"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ytdl-core/3.4.2"
+    requester: "/app"
+    status: "resolved"
+  14 error pnpm: "Could not resolve master to a commit of git://github.com/discordjs/discord.js.git."
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/on-headers/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parseurl/1.3.3"
+    requester: "/app"
+    status: "resolved"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ejs/3.1.6"
+    requester: "/app"
+    status: "resolved"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.17.1"
+    requester: "/app"
+    status: "resolved"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/btoa/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/passport-oauth2/1.6.0"
+    requester: "/app"
+    status: "resolved"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/json-stringify-safe/5.0.1"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/marked/1.2.9"
+    requester: "/app"
+    status: "resolved"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/passport-discord/0.1.4"
+    requester: "/app"
+    status: "found_in_store"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/level-session-store/2.2.0"
+    requester: "/app"
+    status: "found_in_store"

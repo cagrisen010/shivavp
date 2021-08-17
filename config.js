@@ -1,9 +1,9 @@
 const config = {
-  "ownerID": "692790523424931932",//Bu kısıma, kendi ID'niz. 
-  "sahip": ["692790523424931932"],
-  "admins": [""],//Yetkili eklemek isterseniz, o kişinin ID'si.
+  "ownerID": "740949459512590467",//Bu kısıma, kendi ID'niz. 
+  "sahip": ["727909489939972218"],
+  "admins": ["513445414406586386"],//Yetkili eklemek isterseniz, o kişinin ID'si.
   "support": [""],//Destek ekibi eklemek isterseniz, o kişinin ID'si.
-  "token": "",//Botun, tokeni.
+  "token": "ODc3MTQxODUxNjYzMTE0Mjgx.YRuUAQ.4D64DcdrCWiVxxrdaV6ka215hdw",//Botun, tokeni.
   "dashboard" : {
     "oauthSecret": "",//Client secret.
     "callbackURL": `https://v12muzik.glitch.me/callback`,//oAuth2 kısmında bulunan kutucuğa, bu bağlantıyı ekleyiniz.
